@@ -43,9 +43,6 @@ jobs:
 
     - name: Run dotnet format
       run: dotnet-format
-      with:
-        action: "check"
-        fail-fast: "true"
     # - name: Run dotnet format
     #     id: format
     #     uses: jfversluis/dotnet-format@v1.0.5
