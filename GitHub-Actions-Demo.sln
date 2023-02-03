@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{174B733C-456F-4EE6-AAEA-AE700B462FC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{85A69927-B016-4D46-AAD4-7741EBECE67D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GitHub-Actions-Demo", "src\GitHub-Actions-Demo.csproj", "{3537FDB4-E6F9-4431-99A8-1C987CEB95DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3537FDB4-E6F9-4431-99A8-1C987CEB95DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3537FDB4-E6F9-4431-99A8-1C987CEB95DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3537FDB4-E6F9-4431-99A8-1C987CEB95DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3537FDB4-E6F9-4431-99A8-1C987CEB95DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3537FDB4-E6F9-4431-99A8-1C987CEB95DA} = {174B733C-456F-4EE6-AAEA-AE700B462FC0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {144B13A0-1469-4E13-9C65-34DD54BD9D96}
+	EndGlobalSection
+EndGlobal
