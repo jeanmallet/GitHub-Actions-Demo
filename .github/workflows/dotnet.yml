@@ -16,9 +16,7 @@ env:
 
 jobs:
   build:
-
     runs-on: windows-latest
-
     steps:
     - uses: actions/checkout@v3
     - name: Setup .NET
@@ -34,8 +32,18 @@ jobs:
     
     - name: Build
       run: dotnet build --no-restore
-    
-    # - name: Test
-    #   run: dotnet test --no-build --verbosity normal
 
+  code-style:
+    runs-on: windows-latest
+    needs: build
+    steps:
+    - uses: actions/checkout@v3
+    - name: Install dotnet-format
+      run: dotnet tool install -g dotnet-format
+
+    - name: Run dotnet format
+      run: dotnet-format --check --verbosity diagnostic
+    # - name: Run dotnet format
+    #     id: format
+    #     uses: jfversluis/dotnet-format@v1.0.5
 
