@@ -29,6 +29,7 @@ jobs:
 
     - name: Restore NuGet Packages
       run: dotnet restore
+      source: src/
     
     - name: Build
       run: dotnet build --no-restore
