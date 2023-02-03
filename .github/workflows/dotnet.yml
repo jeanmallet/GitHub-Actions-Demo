@@ -28,11 +28,10 @@ jobs:
       run: dotnet nuget add source ${{ env.nuget_feed_source }} --name ${{ env.nuget_feed_name }} --username az --password ${{ secrets.AZURE_DEVOPS_TOKEN }}
 
     - name: Restore NuGet Packages
-      run: dotnet restore
-      source: src/
+      run: dotnet restore .\src\
     
     - name: Build
-      run: dotnet build --no-restore
+      run: dotnet build --no-restore .\src\
 
   code-style:
     runs-on: windows-latest
