@@ -43,7 +43,11 @@ jobs:
 
     - name: Run dotnet format
       run: dotnet-format --check --verbosity diagnostic
-    # - name: Run dotnet format
-    #     id: format
-    #     uses: jfversluis/dotnet-format@v1.0.5
 
+  tests:
+    runs-on: ubuntu-latest
+    needs: code-style
+    steps:
+    - uses: actions/checkout@v3
+    - name: Run unit test
+      run: dotnet test
