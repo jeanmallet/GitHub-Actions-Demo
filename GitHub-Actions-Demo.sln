@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{85A69927-B
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GitHub-Actions-Demo", "src\GitHub-Actions-Demo.csproj", "{3537FDB4-E6F9-4431-99A8-1C987CEB95DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "test\Test\Test.csproj", "{DB52E91F-0460-4992-96C8-669F4F2C77CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,12 +21,17 @@ Global
 		{3537FDB4-E6F9-4431-99A8-1C987CEB95DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3537FDB4-E6F9-4431-99A8-1C987CEB95DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3537FDB4-E6F9-4431-99A8-1C987CEB95DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB52E91F-0460-4992-96C8-669F4F2C77CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB52E91F-0460-4992-96C8-669F4F2C77CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB52E91F-0460-4992-96C8-669F4F2C77CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB52E91F-0460-4992-96C8-669F4F2C77CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{3537FDB4-E6F9-4431-99A8-1C987CEB95DA} = {174B733C-456F-4EE6-AAEA-AE700B462FC0}
+		{DB52E91F-0460-4992-96C8-669F4F2C77CA} = {85A69927-B016-4D46-AAD4-7741EBECE67D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {144B13A0-1469-4E13-9C65-34DD54BD9D96}
